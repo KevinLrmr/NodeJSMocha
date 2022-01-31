@@ -13,7 +13,8 @@ class MyClass {
     }
 
     callAnotherFc(arg1, arg2) {
-        return arg1 + arg2;
+        this.sayHello("hello");
+        return this.add(arg1, arg2);
     }
 }
 
